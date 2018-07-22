@@ -1,6 +1,8 @@
 package com.internousdev.soliloquies.action;
 
+import com.internousdev.soliloquies.dao.TweetDAO;
 import com.internousdev.soliloquies.dto.UserDTO;
+import com.internousdev.soliloquies.util.TweetUtil;
 
 public class TweetAction extends BaseAction {
 
