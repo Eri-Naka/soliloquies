@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+html, body {
+  background-color: #f2f2f2;
+  color: #232323;
+  font-family: sans-serif;
+  height: 100vh;
+}
+html .wrapper, body .wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+html .wrapper .row, body .wrapper .row {
+  margin: 100px auto;
+}
+html .wrapper .btn-yellow, html .wrapper .btn-red, html .wrapper .btn-blue, html .wrapper .btn-purple, html .wrapper .btn-green, html .wrapper .btn-pink, html .wrapper .btn-lime, html .wrapper .btn-aqua, html .wrapper .btn-orange, html .wrapper .btn-gold, html .wrapper .btn-grey, body .wrapper .btn-yellow, body .wrapper .btn-red, body .wrapper .btn-blue, body .wrapper .btn-purple, body .wrapper .btn-green, body .wrapper .btn-pink, body .wrapper .btn-lime, body .wrapper .btn-aqua, body .wrapper .btn-orange, body .wrapper .btn-gold, body .wrapper .btn-grey {
+  position: relative;
+  border: 6px solid #232323;
+  z-index: 2;
+  padding: 12px 22px;
+  margin: 0 10px;
+  box-sizing: border-box;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #232323;
+}
+html .wrapper .btn-yellow:hover:before, html .wrapper .btn-red:hover:before, html .wrapper .btn-blue:hover:before, html .wrapper .btn-purple:hover:before, html .wrapper .btn-green:hover:before, html .wrapper .btn-pink:hover:before, html .wrapper .btn-lime:hover:before, html .wrapper .btn-aqua:hover:before, html .wrapper .btn-orange:hover:before, html .wrapper .btn-gold:hover:before, html .wrapper .btn-grey:hover:before, body .wrapper .btn-yellow:hover:before, body .wrapper .btn-red:hover:before, body .wrapper .btn-blue:hover:before, body .wrapper .btn-purple:hover:before, body .wrapper .btn-green:hover:before, body .wrapper .btn-pink:hover:before, body .wrapper .btn-lime:hover:before, body .wrapper .btn-aqua:hover:before, body .wrapper .btn-orange:hover:before, body .wrapper .btn-gold:hover:before, body .wrapper .btn-grey:hover:before {
+  top: 0;
+  left: 0;
+  width: 102%;
+  height: 100%;
+}
+html .wrapper .btn-yellow:active:before, html .wrapper .btn-red:active:before, html .wrapper .btn-blue:active:before, html .wrapper .btn-purple:active:before, html .wrapper .btn-green:active:before, html .wrapper .btn-pink:active:before, html .wrapper .btn-lime:active:before, html .wrapper .btn-aqua:active:before, html .wrapper .btn-orange:active:before, html .wrapper .btn-gold:active:before, html .wrapper .btn-grey:active:before, body .wrapper .btn-yellow:active:before, body .wrapper .btn-red:active:before, body .wrapper .btn-blue:active:before, body .wrapper .btn-purple:active:before, body .wrapper .btn-green:active:before, body .wrapper .btn-pink:active:before, body .wrapper .btn-lime:active:before, body .wrapper .btn-aqua:active:before, body .wrapper .btn-orange:active:before, body .wrapper .btn-gold:active:before, body .wrapper .btn-grey:active:before {
+  top: -10px;
+  left: 18px;
+  width: 102%;
+  height: 100%;
+}
+html .wrapper .btn-yellow:before, html .wrapper .btn-red:before, html .wrapper .btn-blue:before, html .wrapper .btn-purple:before, html .wrapper .btn-green:before, html .wrapper .btn-pink:before, html .wrapper .btn-lime:before, html .wrapper .btn-aqua:before, html .wrapper .btn-orange:before, html .wrapper .btn-gold:before, html .wrapper .btn-grey:before, body .wrapper .btn-yellow:before, body .wrapper .btn-red:before, body .wrapper .btn-blue:before, body .wrapper .btn-purple:before, body .wrapper .btn-green:before, body .wrapper .btn-pink:before, body .wrapper .btn-lime:before, body .wrapper .btn-aqua:before, body .wrapper .btn-orange:before, body .wrapper .btn-gold:before, body .wrapper .btn-grey:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 12px;
+  left: -14px;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  background-color: #f9d159;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+html .wrapper .btn-red:before, body .wrapper .btn-red:before {
+  background-color: #e45050;
+}
+html .wrapper .btn-blue:before, body .wrapper .btn-blue:before {
+  background-color: #58a9ee;
+}
+html .wrapper .btn-purple:before, body .wrapper .btn-purple:before {
+  background-color: #bc79e7;
+}
+html .wrapper .btn-green:before, body .wrapper .btn-green:before {
+  background-color: #36bf73;
+}
+html .wrapper .btn-pink:before, body .wrapper .btn-pink:before {
+  background-color: #e855cb;
+}
+html .wrapper .btn-lime:before, body .wrapper .btn-lime:before {
+  background-color: #a4f478;
+}
+html .wrapper .btn-aqua:before, body .wrapper .btn-aqua:before {
+  background-color: #5af3f5;
+}
+html .wrapper .btn-orange:before, body .wrapper .btn-orange:before {
+  background-color: #dc612b;
+}
+html .wrapper .btn-gold:before, body .wrapper .btn-gold:before {
+  background-color: #c5ac47;
+}
+html .wrapper .btn-grey:before, body .wrapper .btn-grey:before {
+  background-color: #a8a8a1;
+}
