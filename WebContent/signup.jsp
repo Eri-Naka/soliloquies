@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="contents">
-	<p>新規登録</p>
+	<p>sing up</p>
 
 		<s:form action="SignupConfirmAction">
 			<ul class="list">
@@ -76,7 +76,7 @@
 				<!-- サブミットボタン -->
 				<li>
 				<div class="btn">
-				<s:submit value="確認" class="submit_btn" />
+				<s:submit value="sing up" class="submit_btn" />
 				</div>
 				</li>
 

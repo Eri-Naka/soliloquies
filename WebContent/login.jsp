@@ -31,14 +31,14 @@
 			<!-- サブミットボタン -->
 			<li>
 				<div class="btn">
-					<s:submit value="Sing in" class="submit_btn" />
+					<s:submit value="Sign up" class="submit_btn" />
 				</div>
 			</li>
 			<!-- 新規登録へのリンク -->
 			<li>
-			<div class="link">
-			<a href="SignupAction"> Sign up </a>
-			</div>
+				<div class="link">
+					<a href="SignupAction"> Sign up </a>
+				</div>
 			</li>
 		</ul>
 	</s:form>

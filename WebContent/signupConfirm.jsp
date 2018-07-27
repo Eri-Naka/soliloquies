@@ -1,36 +1,43 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" href="./css/style.css">
-		<title>soliloquies</title>
-	</head>
-	<body>
-		<h1>新規登録確認</h1>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/input.css">
+<link rel="stylesheet" href="./css/sigunupConfirm.css">
+<title>soliloquies</title>
+</head>
+<body>
+	<p>sign up</p>
+	<s:form action="SignupCompleteAction">
 		<ul>
 			<li>
+				<!-- ログインID -->
 				<p>Login ID</p>
 			</li>
+			<li><s:property value="%{#session.signupDto.loginId}" /></li>
 			<li>
-				<s:property value="%{#session.signupDto.loginId}" />
-			</li>
-			<li>
+				<!-- パスワード -->
 				<p>Password</p>
 			</li>
+			<li><s:property value="%{#session.signupDto.password}" /></li>
 			<li>
-				<s:property value="%{#session.signupDto.password}" />
+				<!-- ユーザー名 -->
+				<p>Name</p>
 			</li>
+			<li><s:property value="%{#session.signupDto.name}" /></li>
+
+			<!-- サブミットボタン -->
 			<li>
-				<p>name</p>
-			</li>
-			<li>
-				<s:property value="%{#session.signupDto.name}" />
+				<div class="btn">
+					<s:submit value="Sign up" class="submit_btn" />
+				</div>
 			</li>
 		</ul>
-		<a href="SignupCompleteAction">
-			登録
-		</a>
-	</body>
+	</s:form>
+</body>
 </html>
