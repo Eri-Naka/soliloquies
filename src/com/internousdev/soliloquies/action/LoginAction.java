@@ -2,13 +2,14 @@ package com.internousdev.soliloquies.action;
 
 import com.internousdev.soliloquies.dao.UserDAO;
 import com.internousdev.soliloquies.dto.UserDTO;
+import com.internousdev.soliloquies.util.UserUtil;
 
 public class LoginAction extends BaseAction {
 
 	private String loginId;
 	private String password;
 
-	public String execute(){
+	public String execute() throws Exception {
 
 		clearError();
 
@@ -28,6 +29,9 @@ public class LoginAction extends BaseAction {
 				UserDTO user = dao.select(loginId, password);
 				session.put("user", user);
 
+				if (!UserUtil.existsPhoto(user.getId())){
+					UserUtil.copyDefaultPhoto(user.getId());
+				}
 			}else{
 				putError("login", "ログインに失敗しました");
 			}
