@@ -1,10 +1,11 @@
 @CHARSET "UTF-8";
-* {	/*reset css*/
+
+* { /*reset css*/
 	margin: 0;
 	padding: 0;
 }
 
-body{
+body {
 	height: 100%;
 	background-repeat: no-repeat;
 	background: rgb(185, 210, 224); /* Old browsers */
@@ -27,9 +28,189 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9d2e0',
 		endColorstr='#9ebfd0', GradientType=1);
 	/* IE6-9 fallback on horizontal gradient */
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+/* ヘッダー */
+header {
+	height: 50px; /* 高さ */
+	width: 100%; /* 長さ */
+	background-color: #B0C4DE;
+	border-bottom: 1px solid #fff;
+	position: fixed; /* ヘッダーを固定 */
+	top: 0; /* 固定する位置 */
+	left: 0; /* 固定する位置 */
+	right: 0; /* 固定する位置 */
+	float: right;
+
 }
 
 
-li{
+header .logo{
+	float: left;
+}
+
+header .logo img{
+	width: auto;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+header ul{
+	float: right;
+}
+
+header ul li {
+	float: left;
+	margin-top: 0px;
+
+}
+
+/* 検索ボックス */
+header .search {
+	width: 200px;
+	height: 30px;
+	font-size: 10px;
+	color: #444;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-right: -10px;
+	padding-left: 8px;
+}
+
+.menu-button{
+	height: 30px;
+	margin: 10px;
+}
+
+.menu-button img{
+	width: 30px;
+	height: 30px;
+}
+.search_btn img{
+	width: 30px;
+	height: 30px;
+}
+
+/* tweet欄 */
+.contents_box {
+	clear: both;
+	padding-bottom: 20px;
+}
+
+.tweetView_contents .contents_box{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.tweetView_contents .content_field{
+	background-color: #fff;
+	margin-bottom: 24px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 8px gray;
+}
+
+/* アカウント */
+.tweetView_contents .user_name{
+	margin-left: 8px;
+}
+
+/*ツイートボックス*/
+.contents_box2{
+	width: 330px;
+	height: auto;
+	margin-left: 50px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-left: 16px;
+}
+
+/*いいね画像*/
+.like_btn img{
+	width:20px;
+	height:16px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+/*いいねボックス*/
+.like_btn{
+	width: 60px;
+	height: 25px;
+}
+
+.tweetField{
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+}
+.tweetView_box p {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* tweetFieldつぶやき */
+.tweetField .tweet_message {
+	width: 492px;
+	height: 60px;
+	border-style: none;
+	border-top: 8px solid #B0C4DE;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	border-radius: 5px;
+	font-size: 16px;
+	padding-left: 8px;
+}
+/* ツイートボタン */
+.tweet_btn{
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	background-color: #fff;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #B0C4DE;
+    border: solid 2px #B0C4DE;
+    border-radius: 5px;
+    transition: 0.4s;
+    position: absolute;
+    right: 8px;
+    top: 46px;
+}
+
+.tweet_btn::hover {
+    background: #67c5ff;
+    color: white;
+}
+
+
+/* profile.jsp */
+.profile_box li {
 	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	color: #444;
+	margin-top: 5%;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.profile_box { /* テキストボックス中央に */
+	margin: 24px;
+	padding: 16px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 0 8px gray;
 }

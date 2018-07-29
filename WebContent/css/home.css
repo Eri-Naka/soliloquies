@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+.main {
+	display: flex;
+	width: 100%;
+}
+
+.content {
+	height: 100%;
+	padding: 50px 0;
+}
+
+.left {
+	width: 25%;
+}
+
+.center {
+	width: 75%;
+}
+
+.tweetView_box{
+
+}
+
+/* footer{
+  height: 50px;
+  width: 100%;
+  background-color: yellow;
+} */

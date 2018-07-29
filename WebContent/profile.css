@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.profile_box li {
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 5%;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.profile_box { /*テキストボックス　中央に*/
+	margin: 0 auto;
+	width: 400px;
+	padding: 16px;
+}

@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+/* header{
+  height: 30px; 高さ
+  width: 100%; 長さ
+  background-color: orange;
+  position: fixed; ヘッダーを固定(これが重要)
+  top: 0; 固定する位置
+  left: 0; 固定する位置
+  right: 0;  固定する位置
+  float: right;
+}
+header ul li{
+	float: left;
+	margin: 10px;
+} */
+
+/* .searchs {
+	width:200px;
+	height:30px;
+	border: 1px solid #9F81F7;
+	border-radius: 20px;
+	margin-top: 1px;
+	margin-right:-15px;
+	font-size: 18px;
+	color: #585858;
+	text-align: center;
+} */

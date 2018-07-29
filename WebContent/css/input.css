@@ -42,6 +42,15 @@ li {
 	font-size: 12px;
 	font-weight: 400;
 
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 600;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 5%;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+
 }
 
 .list { /*テキストボックス　中央に*/
@@ -51,7 +60,7 @@ li {
 }
 
 .textbox {
-	width: 100%;
+	width: 400px;
 	margin: 16px;
 	padding: 5px 10px;
 	background: 0;
