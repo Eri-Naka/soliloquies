@@ -13,7 +13,7 @@
 	<p>Welcome to soliloquies!!</p>
 	<br>
 	<div class="link">
-		<a href="HomeAction"> HOME </a>
+		<a href="HomeAction">Getting Started!!</a>
 	</div>
 </body>
 </html>
