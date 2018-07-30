@@ -115,6 +115,7 @@ header .search {
 /* アカウント */
 .tweetView_contents .user_name{
 	margin-left: 8px;
+	padding-top: 8px;
 }
 
 /*ツイートボックス*/
@@ -125,7 +126,7 @@ header .search {
 	background-color: #fff;
 	margin: 0 auto;
 	padding-left: 16px;
-	word-wrap: break-word;
+	word-wrap: break-word;/* 自動改行 */
 }
 
 /*いいね画像*/
@@ -153,17 +154,25 @@ header .search {
 
 
 
-/* tweetFieldつぶやき */
+/* tweetFieldつぶやく */
+.tweetField{
+	osition: relative;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    background-color: #fff;
+    border-top: 16px solid #B0C4DE;
+}
 .tweetField .tweet_message {
-	width: 492px;
+	width: 400px;
 	height: 60px;
 	border-style: none;
-	border-top: 8px solid #B0C4DE;
-	margin-top: 24px;
-	margin-bottom: 24px;
-	border-radius: 5px;
 	font-size: 16px;
 	padding-left: 8px;
+	padding-top: 8px;
+	resize: none;
+
 }
 /* ツイートボタン */
 .tweet_btn{
@@ -174,7 +183,6 @@ header .search {
     font-weight: 600;
 	display: inline-block;
 	background-color: #fff;
-    padding: 0.3em 1em;
     text-decoration: none;
     letter-spacing: 2px;
     color: #B0C4DE;
@@ -183,13 +191,14 @@ header .search {
     transition: 0.4s;
     position: absolute;
     right: 8px;
-    top: 46px;
+    top: 22px;
+    cursor: pointer; /*マウスを乗せたとき指マークにする*/
 }
 
 /* profile.jsp */
 .profile_box { /* テキストボックス中央に */
 	width: 250px;
-	margin: 40px;
+	margin-left: 40px;
 	padding: 16px;
 	border-radius: 5px;
 	border-top: 16px solid #B0C4DE;
@@ -202,7 +211,6 @@ header .search {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	text-align: center;
 	color: #444;

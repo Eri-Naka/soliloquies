@@ -33,7 +33,8 @@
 li .contents_box{
 	margin-left: 10px;
 	margin-right: 10px;
-	border-bottom: 1px solid #B0C4DE;
+	border-bottom: 2px solid #B0C4DE;
+	border-radius: 1px;
     padding-bottom: 0px;
 }
 
