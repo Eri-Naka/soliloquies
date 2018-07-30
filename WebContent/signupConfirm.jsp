@@ -12,24 +12,16 @@
 <title>soliloquies</title>
 </head>
 <body>
-	<p>sign up</p>
+<div class="singupConfirm_contents">
+	<p>Sign up</p>
 	<s:form action="SignupCompleteAction">
+	<div class="singupConfirm_box">
 		<ul>
-			<li>
-				<!-- ログインID -->
-				<p>Login ID</p>
-			</li>
-			<li><s:property value="%{#session.signupDto.loginId}" /></li>
-			<li>
-				<!-- パスワード -->
-				<p>Password</p>
-			</li>
-			<li><s:property value="%{#session.signupDto.password}" /></li>
-			<li>
-				<!-- ユーザー名 -->
-				<p>Name</p>
-			</li>
-			<li><s:property value="%{#session.signupDto.name}" /></li>
+			<li><span>ID</span><s:property value="%{#session.signupDto.loginId}" /></li>
+
+			<li><span>Password</span><s:property value="%{#session.signupDto.password}" /></li>
+
+			<li><span>Name</span><s:property value="%{#session.signupDto.name}" /></li>
 
 			<!-- サブミットボタン -->
 			<li>
@@ -38,6 +30,8 @@
 				</div>
 			</li>
 		</ul>
+		</div>
 	</s:form>
+	</div>
 </body>
 </html>

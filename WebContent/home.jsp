@@ -14,7 +14,7 @@
 </head>
 <body>
 	<jsp:include page="header.jsp" />
-
+<div style="cleaer:both;"></div>
 	<div class="main">
 
 		<div class="content left">

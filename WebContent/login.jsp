@@ -11,7 +11,7 @@
 <title>soliloquies</title>
 </head>
 <body>
-	<p>Sign in to soliloquies</p>
+	<p>Sign in to SOLILOQUIES</p>
 	<s:form action="LoginAction">
 		<ul class=list>
 			<!-- ログインID入力フィールド -->

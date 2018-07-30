@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="contents">
-	<p>sing up</p>
+	<p>Sing up</p>
 
 		<s:form action="SignupConfirmAction">
 			<ul class="list">

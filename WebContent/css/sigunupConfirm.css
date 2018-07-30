@@ -1,3 +1,46 @@
 @CHARSET "UTF-8";
 
+.singupConfirm_contents{
+	margin: 0px;
+}
+
+.singupConfirm_box {
+	font-size: 15px;
+}
+
+.singupConfirm_box li{
+	/* border-bottom: 1px #fff solid;
+	width: 300px;
+	margin-top: 16px;
+	margin: 0 auto; */
+	width: 400px;
+	margin-top: 50px;
+	padding: 24px 8px 5px 16px;
+	background: 0;
+	border: 0;
+	border-bottom: 1px solid #FFFFFF;
+	outline: 0;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.singupConfirm_box span{
+	font-size: 13px;
+	font-weight: bold;
+	padding-right: 24px;
+}
+
+
+.singupConfirm_box li:last-child{
+	border-bottom: none;
+}
+
+.singupConfirm_box .btn{
+	width: 150px;
+	margin: 0 auto;
+}
 

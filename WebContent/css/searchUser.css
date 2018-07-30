@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+
+.searchUser_contents .searchUser_box{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+
+.searchUser_contents a {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #444;
+    text-decoration: none;
+    display: inline-block;
+    width: 280px;
+    height: 65px;
+    line-height: 65px;
+}
+
+.searchUser_box{
+	width: 300px;
+	height: auto;
+	margin-top: 16px;
+	border-radius: 5px;
+	border-top: 16px solid #B0C4DE;
+	background-color: #fff;
+
+}
+
+li .contents_box{
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px solid #B0C4DE;
+    padding-bottom: 0px;
+}
+
+/* liの最後の下線を消す */
+li:last-child .contents_box{
+	border-bottom: none;
+}

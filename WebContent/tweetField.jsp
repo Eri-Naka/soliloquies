@@ -4,7 +4,7 @@
 <s:if test="%{#session.user.id == #session.profile.id}">
 	<s:form action="TweetAction">
 		<div class="tweetField">
-			<s:textfield class="tweet_message" placeholder="just talking to myself" />
+			<s:textfield name="message" class="tweet_message" placeholder="just talking to myself" />
 			<s:submit class="tweet_btn" value="SEND" />
 		</div>
 	</s:form>

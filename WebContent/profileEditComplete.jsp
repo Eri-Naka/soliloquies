@@ -5,12 +5,14 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="./css/style.css">
-		<link rel="stylesheet" href="./css/template.css">
+		<link rel="stylesheet" href="./css/input.css">
 		<title>soliloquies</title>
 	</head>
 	<body>
+	<div class="edit_complete">
 		<jsp:include page="header.jsp" />
 		<p>Edit completed</p>
+		</div>
 
 	</body>
 </html>

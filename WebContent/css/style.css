@@ -41,11 +41,6 @@ header {
 	width: 100%; /* 長さ */
 	background-color: #B0C4DE;
 	border-bottom: 1px solid #fff;
-	position: fixed; /* ヘッダーを固定 */
-	top: 0; /* 固定する位置 */
-	left: 0; /* 固定する位置 */
-	right: 0; /* 固定する位置 */
-	float: right;
 
 }
 
@@ -101,7 +96,7 @@ header .search {
 /* tweet欄 */
 .contents_box {
 	clear: both;
-	padding-bottom: 20px;
+	padding-bottom: 24px;
 }
 
 .tweetView_contents .contents_box{
@@ -173,10 +168,14 @@ header .search {
 .tweet_btn{
 	width: 80px;
 	height: 30px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
 	display: inline-block;
 	background-color: #fff;
     padding: 0.3em 1em;
     text-decoration: none;
+    letter-spacing: 2px;
     color: #B0C4DE;
     border: solid 2px #B0C4DE;
     border-radius: 5px;
@@ -186,10 +185,10 @@ header .search {
     top: 46px;
 }
 
-.tweet_btn::hover {
+/* .tweet_btn::hover {
     background: #67c5ff;
     color: white;
-}
+} */
 
 
 /* profile.jsp */
@@ -207,10 +206,51 @@ header .search {
 	letter-spacing: 4px;
 }
 
+/* プロフィール画像 */
+.profile_box .profile_img img {
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+}
+
+.about_me a{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #444;
+    text-decoration: none;
+}
+
 .profile_box { /* テキストボックス中央に */
-	margin: 24px;
+	width: 250px;
+	margin: 40px;
 	padding: 16px;
 	border-radius: 5px;
+	border-top: 16px solid #B0C4DE;
 	background-color: #fff;
-	box-shadow: 0 0 8px gray;
+}
+/* 自己紹介文 */
+.profile_box .about_me2{
+	width: 250px;
+	word-wrap: break-word;
+	text-align: center;
+}
+/* プロフィール編集ボタン */
+.profile_box .edit_btn{
+	font-size: 13px;
+	text-align: center;
+	margin: 16px;
+}
+.profile_box .btn a{
+	font-family: 'Open Sans', sans-serif;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	background-color: #fff;
+    text-decoration: none;
+    color: #B0C4DE;
+    border: solid 2px #B0C4DE;
+    border-radius: 5px;
 }
