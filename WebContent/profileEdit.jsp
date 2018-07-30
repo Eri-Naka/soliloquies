@@ -50,9 +50,10 @@ $(function(){
 				<li class="edit_name">User Name</li>
 				<li><s:textfield class="textbox" name="name" value="%{#session.user.name}" /></li>
 
-					<!-- プロフィール画像 -->
 					<li  class="edit_img_text">User Picture</li>
 					<!--  ファイル選択ボタン -->
+
+					<!-- プロフィール画像 -->
 					<li>
 						<img id="img1" /><br>
 						<div class="edit_file">

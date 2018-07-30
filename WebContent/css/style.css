@@ -186,13 +186,17 @@ header .search {
     top: 46px;
 }
 
-/* .tweet_btn::hover {
-    background: #67c5ff;
-    color: white;
-} */
-
-
 /* profile.jsp */
+.profile_box { /* テキストボックス中央に */
+	width: 250px;
+	margin: 40px;
+	padding: 16px;
+	border-radius: 5px;
+	border-top: 16px solid #B0C4DE;
+	background-color: #fff;
+	float: right;
+}
+
 .profile_box li {
 	list-style: none;
 	font-family: 'Open Sans', sans-serif;
@@ -212,6 +216,7 @@ header .search {
 	width: 140px;
 	height: 140px;
 	border-radius: 70px;
+	object-fit: cover;
 }
 
 .about_me a{
@@ -223,14 +228,6 @@ header .search {
     text-decoration: none;
 }
 
-.profile_box { /* テキストボックス中央に */
-	width: 250px;
-	margin: 40px;
-	padding: 16px;
-	border-radius: 5px;
-	border-top: 16px solid #B0C4DE;
-	background-color: #fff;
-}
 /* 自己紹介文 */
 .profile_box .about_me2{
 	width: 250px;
