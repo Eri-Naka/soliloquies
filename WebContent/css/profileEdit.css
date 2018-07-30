@@ -30,7 +30,7 @@
 	border: none;
 	resize: none;
 	background-color: #fff;
-	margin-bottom: 24px;
+	margin: 16px 0;
 	border: none;
 	border-radius: 5px;
 	box-shadow: 0 0 8px gray;
@@ -42,6 +42,5 @@
 	height: 140px;
 	border-radius: 70px;
 	object-fit: cover;
-}
-
+	margin: 16px 0;
 }
