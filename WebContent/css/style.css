@@ -125,6 +125,7 @@ header .search {
 	background-color: #fff;
 	margin: 0 auto;
 	padding-left: 16px;
+	word-wrap: break-word;
 }
 
 /*いいね画像*/
