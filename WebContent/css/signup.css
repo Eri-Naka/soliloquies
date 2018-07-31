@@ -1,5 +1,11 @@
 @CHARSET "UTF-8";
 
+.contents .error-message{
+	font-size: 10px;
+	font-weight: lighter;
+	color: #eee;
+}
+
 
 
 

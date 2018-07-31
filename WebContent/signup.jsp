@@ -76,7 +76,7 @@
 				<!-- サブミットボタン -->
 				<li>
 				<div class="btn">
-				<s:submit value="sing up" class="submit_btn" />
+				<s:submit value="Sing up" class="submit_btn" />
 				</div>
 				</li>
 
