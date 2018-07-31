@@ -6,9 +6,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/header.css">
-<link rel="stylesheet" href="./css/profile.css">
-<!-- <link rel="stylesheet" href="./css/input.css"> -->
 <link rel="stylesheet" href="./css/home.css">
 <title>soliloquies</title>
 </head>
