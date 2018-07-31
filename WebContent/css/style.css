@@ -155,11 +155,15 @@ header .search {
 
 
 /* tweetFieldつぶやく */
+.tweetFile_contents{
+	margin-bottom: 24px;
+}
+
 .tweetField{
 	osition: relative;
     width: 500px;
     margin: 0 auto;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     border-radius: 5px;
     background-color: #fff;
     border-top: 16px solid #99b5d6;
@@ -193,6 +197,13 @@ header .search {
     right: 8px;
     top: 22px;
     cursor: pointer; /*マウスを乗せたとき指マークにする*/
+}
+
+.tweetFile_contents .error-message{
+	font-size: 10px;
+	font-weight: lighter;
+	color: #eee;
+	text-align: center;
 }
 
 /* profile.jsp */

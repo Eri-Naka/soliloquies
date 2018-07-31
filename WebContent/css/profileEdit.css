@@ -36,6 +36,10 @@
 	box-shadow: 0 0 8px gray;
 }
 
+.profileEdit_box .edit_text {
+	margin-top: 16px;
+}
+
 #img1{
 	display: none;
 	width: 140px;
