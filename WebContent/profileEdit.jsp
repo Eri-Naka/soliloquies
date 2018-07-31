@@ -49,7 +49,12 @@ $(function(){
 				<!-- ユーザー名 -->
 				<li class="edit_name">User Name</li>
 				<li><s:textfield class="textbox" name="name" value="%{#session.user.name}" /></li>
-
+				<!-- ユーザー名エラーメッセージ -->
+				<s:if test="%{#session.error.containsKey('name')}">
+					<s:iterator value="%{#session.error.name}">
+						<li><s:property /></li>
+					</s:iterator>
+				</s:if>
 					<li  class="edit_img_text">User Picture</li>
 					<!--  ファイル選択ボタン -->
 
@@ -60,11 +65,23 @@ $(function(){
 							<s:file class="edit_img" id="myfile" name="photo" />Select File
 						</div>
 					</li>
-
+					<!-- 画像エラーメッセージ -->
+					<s:if test="%{#session.error.containsKey('photo')}">
+						<s:iterator value="%{#session.error.photo}">
+							 <li>
+								<s:property />
+							</li>
+						</s:iterator>
+					</s:if>
 
 					<li><s:textarea class="edit_box" name="introductions"
 						value="%{#session.user.introductions}" /></li>
-
+					<!-- 紹介文エラーメッセージ -->
+					<s:if test="%{#session.error.containsKey('introductions')}">
+						<s:iterator value="%{#session.error.introductions}">
+							<li><s:property /></li>
+						</s:iterator>
+					</s:if>
 					<li><s:submit class="submit_btn" value="Update" /></li>
 				</ul>
 			</s:form>

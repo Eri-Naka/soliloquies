@@ -9,7 +9,7 @@ public class DBConnector {
 	private static String driverName = "com.mysql.jdbc.Driver";
 	private static String url = "jdbc:mysql://localhost/soliloquies";
 	private static String user = "root";
-	private static String password = "";
+	private static String password = "mysql";
 
 	public static Connection getConnection(){
 
