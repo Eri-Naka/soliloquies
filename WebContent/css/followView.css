@@ -33,7 +33,7 @@
 	height: auto;
 	margin-top: 16px;
 	border-radius: 5px;
-	border-top: 16px solid #B0C4DE;
+	border-top: 16px solid #99b5d6;
 	background-color: #fff;
 }
 
@@ -71,7 +71,7 @@
 	display: inline-block;
 	background-color: #fff;
     text-decoration: none;
-    color: #B0C4DE;
-    border: solid 2px #B0C4DE;
+    color: #99b5d6;
+    border: solid 2px #99b5d6;
     border-radius: 5px;
 }

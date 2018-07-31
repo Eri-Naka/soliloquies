@@ -25,7 +25,7 @@
 	height: auto;
 	margin-top: 16px;
 	border-radius: 5px;
-	border-top: 16px solid #B0C4DE;
+	border-top: 16px solid #99b5d6;
 	background-color: #fff;
 
 }
@@ -33,7 +33,7 @@
 li .contents_box{
 	margin-left: 10px;
 	margin-right: 10px;
-	border-bottom: 2px solid #B0C4DE;
+	border-bottom: 2px solid #99b5d6;
 	border-radius: 1px;
     padding-bottom: 0px;
 }

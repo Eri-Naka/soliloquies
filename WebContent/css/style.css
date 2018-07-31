@@ -39,7 +39,7 @@ li {
 header {
 	height: 50px; /* 高さ */
 	width: 100%; /* 長さ */
-	background-color: #B0C4DE;
+	background-color: #99b5d6;
 	border-bottom: 1px solid #fff;
 
 }
@@ -162,7 +162,7 @@ header .search {
     margin-bottom: 24px;
     border-radius: 5px;
     background-color: #fff;
-    border-top: 16px solid #B0C4DE;
+    border-top: 16px solid #99b5d6;
 }
 .tweetField .tweet_message {
 	width: 400px;
@@ -185,8 +185,8 @@ header .search {
 	background-color: #fff;
     text-decoration: none;
     letter-spacing: 2px;
-    color: #B0C4DE;
-    border: solid 2px #B0C4DE;
+    color: #99b5d6;
+    border: solid 2px #99b5d6;
     border-radius: 5px;
     transition: 0.4s;
     position: absolute;
@@ -201,7 +201,7 @@ header .search {
 	margin-left: 40px;
 	padding: 16px;
 	border-radius: 5px;
-	border-top: 16px solid #B0C4DE;
+	border-top: 16px solid #99b5d6;
 	background-color: #fff;
 	float: right;
 }
@@ -256,7 +256,7 @@ header .search {
 	display: inline-block;
 	background-color: #fff;
     text-decoration: none;
-    color: #B0C4DE;
-    border: solid 2px #B0C4DE;
+    color: #99b5d6;
+    border: solid 2px #99b5d6;
     border-radius: 5px;
 }

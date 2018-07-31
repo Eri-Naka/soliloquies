@@ -8,7 +8,7 @@
 		<li class="about_me"><a href='<s:url action="HomeAction"><s:param name="userId" value="%{#session.profile.id}"/></s:url>'>
 	<s:property value="%{#session.profile.name}" />
 </a></li>
-		<li class="about_me2"><s:property value="%{#session.profile.introductions}" escape="false" /></li>
+		<li class="about_me2"><s:property value="%{#session.profile.escapeIntroductions}" escape="false" /></li>
 
 		<s:if test="%{!#session.isUser}">
 			<s:if test="%{#session.isFollowing}">
@@ -21,7 +21,7 @@
 				<li><div class="btn"><a
 					href='<s:url action="FollowAction"><s:param name="userId" value="%{#session.profile.id}"/></s:url>'>
 
-						Follow up</a></div></li>
+						Follow</a></div></li>
 			</s:else>
 		</s:if>
 		<s:if test="%{#session.isUser}">

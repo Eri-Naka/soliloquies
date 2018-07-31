@@ -7,13 +7,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/input.css">
+<link rel="stylesheet" href="./css/signupComplete.css">
 <title>soliloquies</title>
 </head>
 <body>
-	<p>Welcome to soliloquies!!</p>
+	<p>Welcome to Soliloquies!!</p>
 	<br>
-	<div class="link">
-		<a href="HomeAction">Getting Started!!</a>
+	<div class="link_Home">
+		<a href="HomeAction">Get Started!!</a>
 	</div>
 </body>
 </html>

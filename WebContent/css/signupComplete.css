@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+.link_Home {
+	font-size: 18px;
+	text-align: center;
+	margin: 16px;
+}
+
+.link_Home a{
+	font-family: 'Open Sans', sans-serif;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	background-color: #fff;
+    text-decoration: none;
+    color: #B0C4DE;
+    border: solid 2px #B0C4DE;
+    border-radius: 5px;
+}

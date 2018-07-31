@@ -31,7 +31,7 @@
 			<!-- サブミットボタン -->
 			<li>
 				<div class="btn">
-					<s:submit value="Sign up" class="submit_btn" />
+					<s:submit value="Sign in" class="submit_btn" />
 				</div>
 			</li>
 			<!-- 新規登録へのリンク -->

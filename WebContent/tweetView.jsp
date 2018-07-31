@@ -13,7 +13,7 @@
 						</li>
 						<!-- ツイート内容 -->
 						<li class="contents_box2">
-							<s:property value="content" />
+							<s:property value="escapeContent" escape="false" />
 						</li>
 						<!-- ボタン -->
 						<li class="like_btn">
